@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+header {
+    padding-bottom: 90px;
+    background-image: url("imagenes/cielo.jpg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+ #foto, #nombre {
+    line-height: 20px;
+    border-radius: 20px;
+    display: block;
+
+}
+
+section {
+   
+    background-image: url("https://sannicolasciudad.gob.ar/system/articles/main_images/000/000/098/medium/SN_CIUDAD.JPG?1556205572");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+     padding: 10px;
+}
+
+p {
+    text-align: right;
+    font-size: 23px;
+    
+}
+
+section button {
+    color: rgb(109, 26, 255);
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 31px -29px 46px 38px;
+    border: 2px solid rgb(28, 110, 200);
+    cursor: pointer;
+}
+
+#nombre {
+    cursor: pointer;
+    float: left;
+text-align: center;  
+}
+
+div {
+    font-family: 'Rubik', sans-serif;
+    text-align: right;
+    font-size: 25px;
+    color: #ecf7f1f5;
+    text-shadow: 10px rgba(92, 197, 92, 0.89);
+}
+
+
+a {
+    text-align: center;
+    color: rgba(206, 21, 197, 0.404);
+}
+
+@media only screen and (max-width: 400px) {
+
+    #nombre, #foto {
+        width: 100%;
+
+    }
+   
+    p {
+font-size: 25px;
+        text-align: center;
+        display: block;
+    }
+
+    }
+
+footer {
+    border-top: solid rebeccapurple;
+    box-sizing: border-box;
+    background-color: #db2114;
+
+}
+
+label {
+font-size: 25px;
+    text-decoration: rgb(158, 148, 148);
+    text-shadow: 1px rgb(231, 101, 231);
+    line-height: 200%;
+margin: 20px;
+}
+
+#usuario, #mensaje {
+    font-weight: 200;
+    font-style: italic;
+}
+
+#boton1 {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 300px;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #eb9d0e;
+  }
+  
+  #boton1:hover {
+    background-color: rgba(206, 21, 197, 0.404);
+    ;
+    color: white;
+  }
+  #comentarioUsuario {
+    float: left; 
+    background-color: #db2114;
+  }
+  
